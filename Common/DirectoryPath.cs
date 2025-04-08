@@ -13,6 +13,8 @@ namespace Core.Common
             var language = Language.Code;
             
             var jsons = root + "/Jsons/" + language;
+            
+            CheckDirectory(jsons);
         }
 
         private static void CheckDirectory(string path)
